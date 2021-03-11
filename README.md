@@ -17,7 +17,9 @@
 #### Import class from MACAddress.py (from MACAddress import GetDataByMACAddress)
 #### Create instances of class ( mac = GetDataByMACAddress())
 #### Use function company_name to get name of the company from data (mac.company_name('44:38:39:ff:ef:57'))
-#### from security reason you should consider JWT Authentication in more advance projects
+#### More security way i to use company_name_headers function with two parameters, MACAddress and security key
+#### Your security key, you will find after register on website 'https://macaddress.io/' 
+#### Try (mac.company_name_headers('mac address', 'your security key'))
 
 ## Status
 Finish
